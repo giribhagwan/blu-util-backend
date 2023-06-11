@@ -15,7 +15,7 @@ public class DeviceStreamController {
 
     private final DeviceStreamService deviceStreamService;
 
-    @PostMapping("/")
+    @PostMapping("")
     public String save(@RequestBody DeviceStream deviceStream){
         return deviceStreamService.save(deviceStream);
     }
@@ -23,10 +23,18 @@ public class DeviceStreamController {
     public DeviceStream get(@PathVariable Long id){
         return deviceStreamService.get(id);
     }
-    @GetMapping("/")
+    @GetMapping("")
     public List<DeviceStream> getAll(){
         return deviceStreamService.getAll();
     }
 
-
+    @GetMapping("/getStream")
+    public List<DeviceStream> getByWorkOrderNo(@RequestParam String workOrderNumber){
+        return deviceStreamService.getByWorkOrderNo(workOrderNumber);
+    }
+    @GetMapping("/getStreamBy")
+    public List<DeviceStream> getByWorkOrderNo(@RequestParam String workOrderNumber,
+                                               @RequestParam String jobType){
+        return deviceStreamService.getByWorkOrderNo(jobType,workOrderNumber);
+    }
 }
