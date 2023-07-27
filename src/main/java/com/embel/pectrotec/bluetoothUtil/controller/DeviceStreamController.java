@@ -3,7 +3,6 @@ package com.embel.pectrotec.bluetoothUtil.controller;
 import com.embel.pectrotec.bluetoothUtil.domain.DeviceStream;
 import com.embel.pectrotec.bluetoothUtil.service.DeviceStreamService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,12 +28,12 @@ public class DeviceStreamController {
     }
 
     @GetMapping("/getStream")
-    public List<DeviceStream> getByWorkOrderNo(@RequestParam String workOrderNumber){
-        return deviceStreamService.getByWorkOrderNo(workOrderNumber);
+    public List<DeviceStream> getByProcessNumber(@RequestParam String processNumber){
+        return deviceStreamService.getByProcessNumber(processNumber);
     }
     @GetMapping("/getStreamBy")
     public List<DeviceStream> getByWorkOrderNo(@RequestParam String workOrderNumber,
                                                @RequestParam String jobType){
-        return deviceStreamService.getByWorkOrderNo(jobType,workOrderNumber);
+        return deviceStreamService.getByProcessNumber(jobType,workOrderNumber);
     }
 }

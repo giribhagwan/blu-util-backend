@@ -25,11 +25,11 @@ public class DeviceStreamService {
        return deviceStreamRepository.findAll();
     }
 
-    public List<DeviceStream> getByWorkOrderNo(String workOrderNumber) {
-       return deviceStreamRepository.findByWorkOrderNo(workOrderNumber);
+    public List<DeviceStream> getByProcessNumber(String processNumber) {
+       return deviceStreamRepository.findByProcessNumber(processNumber);
     }
 
-    public List<DeviceStream> getByWorkOrderNo(String jobType, String workOrderNumber) {
-        return deviceStreamRepository.findByJobTypeAndWorkOrderNo(jobType,workOrderNumber);
+    public List<DeviceStream> getByProcessNumber(String jobType, String workOrderNumber) {
+        return null;
     }
 }

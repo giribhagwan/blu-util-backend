@@ -14,9 +14,10 @@ public class DeviceStream {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
-    private String configuration;
-    private String cardNo;
+    private String configName;
+    private String serialNumber;
+    private String boardName;
+    private String processNumber;
     private String jobType;
-    private String workOrderNo;
 
 }
