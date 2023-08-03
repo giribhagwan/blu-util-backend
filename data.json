@@ -1,0 +1,1204 @@
+{
+  "data": {
+    "0130": {
+      "0.1.0": {
+        "ID": "0130",
+        "Name": "GBC Health Dental Favourites API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {}
+        }
+      }
+    },
+    "0251": {
+      "0.0.1": {
+        "ID": "0251",
+        "Name": "Sunlife Client (Benefit) Coverage TP API",
+        "Description": "",
+        "Version": "0.0.1",
+        "Tags": [
+          "LOB|Group Benefits",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Swarnendu Shekhar Das",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "Razi Choudhury",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Brian Hutton",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/N/A",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            },
+            "LOB": {
+              "value": "Group Benefits",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0010": {
+      "1.2.0": {
+        "ID": "0010",
+        "Name": "Contract Client API",
+        "Description": "Perform operation on Client profile. For more information on the implementation of this API please see  http://cl11602.sunlifecorp.com:8090/display/IADD/clp-1.0+Requirements",
+        "Version": "1.2.0",
+        "Tags": [
+          "Team Name|Individual"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/new-business-contract-client",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0131": {
+      "0.2.0": {
+        "ID": "0131",
+        "Name": "Docs Upload",
+        "Description": "The docsUpload service is used to upload one or more documents in the mobile document database and to return transaction key and list of document keys as response based on the request.",
+        "Version": "0.2.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims",
+          "Region|SLF Canada",
+          "Business Domain|Clients",
+          "Journey Stage|Client Onboarding",
+          "API Type|Process",
+          "Security|Okta",
+          "SIT"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy",
+                "Light Gateway"
+              ],
+              "source": "Light Gateway Configuration"
+            }
+          },
+          "Links": {
+            "Marketplace Link": {
+              "value": "https://api-marketplace.sunlife.com/sun-life-financial-ca-ds-gb/api/docs-upload",
+              "source": "Marketplace"
+            },
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/docs_upload_api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF Canada",
+              "source": "SwaggerHub"
+            },
+            "API Type": {
+              "value": "Experience",
+              "source": "SwaggerHub"
+            },
+            "Journey Stage": {
+              "value": "Client Onboarding",
+              "source": "SwaggerHub"
+            },
+            "Business Domain": {
+              "value": "Clients",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "SIT"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      },
+      "0.1.0": {
+        "ID": "0131",
+        "Name": "Docs Upload API",
+        "Description": "The docsUpload service is used to upload one or more documents in the mobile document database and to return transaction key and list of document keys as response based on the request.",
+        "Version": "0.1.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims",
+          "Security|Okta",
+          "SIT"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy",
+                "Light Gateway"
+              ],
+              "source": "Light Gateway Configuration"
+            }
+          },
+          "Links": {
+            "Marketplace Link": {
+              "value": "https://api-marketplace.sunlife.com/sun-life-financial-ca-ds-gb/api/docs-upload",
+              "source": "Marketplace"
+            },
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/docs_upload_api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF Canada",
+              "source": "SwaggerHub"
+            },
+            "API Type": {
+              "value": "Process",
+              "source": "SwaggerHub"
+            },
+            "Journey Stage": {
+              "value": "Client Onboarding",
+              "source": "SwaggerHub"
+            },
+            "Business Domain": {
+              "value": "Clients",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "SIT"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      }
+    },
+    "0252": {
+      "0.1.0": {
+        "ID": "0252",
+        "Name": "Advisor Profile Domain Service",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "LOB|Individual",
+          "Region|Canada"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Lucas Boyd",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Sarah Cox",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "Canada",
+              "source": "API ID Allocation"
+            },
+            "LOB": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0250": {
+      "0.0.6": {
+        "ID": "0250",
+        "Name": "Sunlife eSignature Multiclient API",
+        "Description": "",
+        "Version": "0.0.6",
+        "Tags": [
+          "LOB|Canada IT",
+          "Region|Canada",
+          "Region|SLF-Canada",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Shafali Kataria/Punit Goyal",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/N/A",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            },
+            "LOB": {
+              "value": "Canada IT",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      },
+      "0.0.5": {
+        "ID": "0250",
+        "Name": "Sunlife eSignature Multiclient API",
+        "Description": "",
+        "Version": "0.0.5",
+        "Tags": [
+          "LOB|Canada IT",
+          "Region|Canada",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Shafali Kataria/Punit Goyal",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/N/A",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            },
+            "LOB": {
+              "value": "Canada IT",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0006": {
+      "1.0.1": {
+        "ID": "0006",
+        "Name": "Contract Amendment API",
+        "Description": "Maintain contract amendments. The amendments are part of the printed contract for the client. For information on the implementation of this API please see http://cl11602.sunlifecorp.com:8090/display/IADD/Amendment+API",
+        "Version": "1.0.1",
+        "Tags": [
+          "Team Name|Individual"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/contract-amendment",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0127": {
+      "0.1.0": {
+        "ID": "0127",
+        "Name": "GBC Health Dental Profile Packages API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {}
+        }
+      }
+    },
+    "0248": {
+      "0.1.0": {
+        "ID": "0248",
+        "Name": "Click To Call API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "LOB|GRS",
+          "Region|Canada",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "Canada",
+              "source": "API ID Allocation"
+            },
+            "LOB": {
+              "value": "GRS",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0007": {
+      "1.0.0": {
+        "ID": "0007",
+        "Name": "Contract Plan API",
+        "Description": "Retrieve contract plan for each admin system.",
+        "Version": "1.0.0",
+        "Tags": [
+          "Team Name|Individual"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/contract-plan",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0128": {
+      "0.1.0": {
+        "ID": "0128",
+        "Name": "GBC Health Dental Facilities API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {}
+        }
+      }
+    },
+    "0249": {
+      "0.1.0": {
+        "ID": "0249",
+        "Name": "Sunlife eSignature Event Producer API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "LOB|Canada IT",
+          "Region|Canada",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Shafali Kataria/Punit Goyal",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Scott Mueller",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "Canada",
+              "source": "API ID Allocation"
+            },
+            "LOB": {
+              "value": "Canada IT",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0004": {
+      "2.0.0": {
+        "ID": "0004",
+        "Name": "Advisor",
+        "Description": "Search service and commission advisors",
+        "Version": "2.0.0",
+        "Tags": [
+          "Team Name|Individual",
+          "Security|Okta",
+          "STAGE",
+          "SIT",
+          "DEV"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy"
+              ],
+              "source": "Kubernetes"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/advisor-api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF Canada",
+              "source": "SwaggerHub"
+            },
+            "API Type": {
+              "value": "Experience",
+              "source": "SwaggerHub"
+            },
+            "Journey Stage": {
+              "value": "Client Onboarding",
+              "source": "SwaggerHub"
+            },
+            "Business Domain": {
+              "value": "Advisor",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "STAGE",
+                "SIT",
+                "DEV"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      },
+      "2.1.0": {
+        "ID": "0004",
+        "Name": "Advisor",
+        "Description": "Search service and commission advisors",
+        "Version": "2.1.0",
+        "Tags": [
+          "Team Name|Individual",
+          "Region|SLF Canada",
+          "Business Domain|Advisor",
+          "Journey Stage|Client Onboarding",
+          "API Type|Experience",
+          "Security|Okta",
+          "STAGE",
+          "SIT",
+          "DEV"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy"
+              ],
+              "source": "Kubernetes"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/advisor-api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF Canada",
+              "source": "SwaggerHub"
+            },
+            "API Type": {
+              "value": "Experience",
+              "source": "SwaggerHub"
+            },
+            "Journey Stage": {
+              "value": "Client Onboarding",
+              "source": "SwaggerHub"
+            },
+            "Business Domain": {
+              "value": "Advisor",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "STAGE",
+                "SIT",
+                "DEV"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      },
+      "1.5.0": {
+        "ID": "0004",
+        "Name": "Advisor API",
+        "Description": "Search service and commission advisors",
+        "Version": "1.5.0",
+        "Tags": [
+          "Team Name|Individual",
+          "Region|SLF Canada",
+          "Business Domain|Advisor",
+          "Journey Stage|Client Onboarding",
+          "API Type|Experience",
+          "Security|Okta",
+          "STAGE",
+          "SIT",
+          "DEV"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy"
+              ],
+              "source": "Kubernetes"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/advisor-api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "STAGE",
+                "SIT",
+                "DEV"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      }
+    },
+    "0125": {
+      "8.2.0": {
+        "ID": "0125",
+        "Name": "Group Benefits Claims Touchpoint Health & Dental Provider Search API",
+        "Description": "The purpose of this API is to retrieve provider information matching specific criteria from the Health and Dental claims domain.",
+        "Version": "8.2.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/GBClaims-Touchpoint-HealthDental-ProviderSearch",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0246": {
+      "0.1.0": {
+        "ID": "0246",
+        "Name": "US GCS Claim Document Upload API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "LOB|Group Benefits",
+          "Region|US East",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "Dan Smith",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Dan Smith",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "US East",
+              "source": "API ID Allocation"
+            },
+            "LOB": {
+              "value": "Group Benefits",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0126": {
+      "7.3.1": {
+        "ID": "0126",
+        "Name": "Group Benefits Claims Touchpoint Health & Dental Favourites API",
+        "Description": "The purpose of this API is to indicate if a facility/provider/specialty can be added to the favourites list if not already present.",
+        "Version": "7.3.1",
+        "Tags": [
+          "Team Name|Group Benefits Claims"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/GBClaims-Touchpoint-HealthDental-Favourites",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF Canada",
+              "source": "SwaggerHub"
+            },
+            "API Type": {
+              "value": "Experience",
+              "source": "SwaggerHub"
+            },
+            "Journey Stage": {
+              "value": "Client Usage",
+              "source": "SwaggerHub"
+            },
+            "Business Domain": {
+              "value": "Clients",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0247": {
+      "0.0.1": {
+        "ID": "0247",
+        "Name": "Sunlife Navigation TP API",
+        "Description": "",
+        "Version": "0.0.1",
+        "Tags": [
+          "LOB|CXO",
+          "Region|Canada"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Razi Chaudhry/Namrta Pandey",
+              "source": "API ID Allocation"
+            },
+            "Operations Owner": {
+              "value": "AOS",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "One Sun",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/N/A",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            },
+            "LOB": {
+              "value": "CXO",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0002": {
+      "1.1.0": {
+        "ID": "0002",
+        "Name": "Artifacts Index API",
+        "Description": "Search , create , update metadata for image artifacts",
+        "Version": "1.1.0",
+        "Tags": [
+          "Team Name|Individual"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/artifacts-api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0123": {
+      "3.1.0": {
+        "ID": "0123",
+        "Name": "Group Benefits Claims Health & Dental Claims API",
+        "Description": "\"The purpose of this API is to manage Health & Dental claims and to retrieve related information.\"",
+        "Version": "3.1.0",
+        "Tags": [
+          "Team Name|Group Benefits Claims",
+          "STAGE",
+          "PRODUCTION",
+          "SIT",
+          "DEV"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Group Benefits Claims",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy"
+              ],
+              "source": "Kubernetes"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/GBClaims-HealthDental-Claims",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "STAGE",
+                "PRODUCTION",
+                "SIT",
+                "DEV"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      }
+    },
+    "0244": {
+      "0.1.0": {
+        "ID": "0244",
+        "Name": "qps-event-channel-service-proxy",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "Region|US",
+          "Team Name|Sunlife US",
+          "Security|Okta"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Sunlife US",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "QPS team (Patrick Ffrench, Daniel Ball, Alexander Borskiy)",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "QPS team (Patrick Ffrench, Daniel Ball, Alexander Borskiy)",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "US",
+              "source": "API ID Allocation"
+            }
+          }
+        }
+      }
+    },
+    "0003": {
+      "1.0.2": {
+        "ID": "0003",
+        "Name": "Decision API",
+        "Description": "Maintain underwriting package and its attributes like decision.",
+        "Version": "1.0.2",
+        "Tags": [
+          "Team Name|Individual"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Individual",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "Marketplace Link": {
+              "value": "https://api-marketplace.sunlife.com/sun-life-financial-eadp-api-platform/api/decision",
+              "source": "Marketplace"
+            },
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/decision-api",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {
+            "Region": {
+              "value": "SLF-Canada",
+              "source": "SwaggerHub"
+            }
+          }
+        }
+      }
+    },
+    "0124": {
+      "2.0.0": {
+        "ID": "0124",
+        "Name": "Enterprise Services Secure Domains API",
+        "Description": "The purpose of this API is to return details about all secure domains or details about a specific secure domain (depending on the parameters passed)",
+        "Version": "2.0.0",
+        "Tags": [
+          "Team Name|Enterprise Services"
+        ],
+        "Metadata": {
+          "General": {
+            "Team Name": {
+              "value": "Enterprise Services",
+              "source": "API ID Allocation"
+            },
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {
+            "SwaggerHub Link": {
+              "value": "https://app.swaggerhub.com/apis/Sun-Life-Financial/EnterpriseServices-SecureDomains2",
+              "source": "SwaggerHub"
+            }
+          },
+          "Business Metadata": {}
+        }
+      }
+    },
+    "0245": {
+      "0.1.0": {
+        "ID": "0245",
+        "Name": "GRS Transaction Restrictions API",
+        "Description": "",
+        "Version": "0.1.0",
+        "Tags": [
+          "LOB|GRS",
+          "Region|Canada",
+          "Security|Okta",
+          "DEV"
+        ],
+        "Metadata": {
+          "General": {
+            "Service Model": {
+              "value": "Internal",
+              "source": "API ID Allocation"
+            },
+            "Technical Contact": {
+              "value": "Mohan Batra",
+              "source": "API ID Allocation"
+            },
+            "Product(s) in use": {
+              "value": [
+                "Light Proxy"
+              ],
+              "source": "Kubernetes"
+            },
+            "Operations Owner": {
+              "value": "Manish Rattan",
+              "source": "API ID Allocation"
+            },
+            "Delivery Owner": {
+              "value": "Kumar Ponnusamy",
+              "source": "API ID Allocation"
+            }
+          },
+          "Links": {},
+          "Business Metadata": {
+            "Region": {
+              "value": "Canada",
+              "source": "API ID Allocation"
+            },
+            "LOB": {
+              "value": "GRS",
+              "source": "API ID Allocation"
+            }
+          },
+          "Kubernetes": {
+            "Deployed Environment": {
+              "value": [
+                "DEV"
+              ],
+              "source": "Kubernetes"
+            }
+          }
+        }
+      }
+    }
+  }
+}

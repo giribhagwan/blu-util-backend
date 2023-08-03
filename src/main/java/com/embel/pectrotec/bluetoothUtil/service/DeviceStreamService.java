@@ -5,6 +5,7 @@ import com.embel.pectrotec.bluetoothUtil.repository.DeviceStreamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.Timestamp;
 import java.util.List;
 
 @Service
@@ -25,8 +26,8 @@ public class DeviceStreamService {
        return deviceStreamRepository.findAll();
     }
 
-    public List<DeviceStream> getByProcessNumber(String processNumber) {
-       return deviceStreamRepository.findByProcessNumber(processNumber);
+    public List<DeviceStream> getByProcessNumber(String processNumber, Timestamp fromDate, Timestamp toDate) {
+       return deviceStreamRepository.findByProcessNumberAndCreatedTimestampBetween(processNumber,fromDate,toDate);
     }
 
     public List<DeviceStream> getByProcessNumber(String jobType, String workOrderNumber) {
